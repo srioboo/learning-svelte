@@ -1,22 +1,12 @@
 /*
 Aqui van los estilos, 
-se puede importar pico o spectre aqui on el +layout.svelte
+se puede importar pico  aqui on el +layout.svelte
 */
 
 /* Picocss https://picocss.com/ */
-/*@import '@picocss/pico';*/
+@import '@picocss/pico';
 /* para layout avanzados con pico descargar http://flexboxgrid.com/ 
 *  otras opciones son servicios online:
 * https://cssgrid-generator.netlify.app/
 * https://griddy.io/ 
 */
-
-
-/* Spectrecss https://picturepan2.github.io/spectre/index.html */
-/* @import "node_modules/spectre.css/src/spectre.scss"; */
-
-/* solo secciones de spectre */
-/* @import "node_modules/spectre.css/src/buttons";
-@import "node_modules/spectre.css/src/forms"; */
-
-/* Bulma https://bulma.io/ */

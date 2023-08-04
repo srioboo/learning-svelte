@@ -1,5 +1,4 @@
 <script lang="ts">
-  	// import '@picocss/pico' // se puede importar pico aqui
 	import './styles.css'; // o importar pico desde los estilos
 	import Header from './Header.svelte';
 </script>

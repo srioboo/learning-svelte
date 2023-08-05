@@ -1,0 +1,31 @@
+/** Minimal setup -> https://www.youtube.com/watch?v=RctP49SwyT0&t=218s */
+/* Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html {
+    color-scheme: light dark;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* https://realtimecolors.com/ */
+:root {
+    --text: hsl(0, 0%, 0%);
+    --background: hsl(0, 0%, 100%);
+    --primary: hsl(221, 100%, 78%);
+    --secondary: hsl(222, 100%, 96%);
+    --accent: hsl(334, 76%, 47%);
+
+    /* fuentes aqui */
+}

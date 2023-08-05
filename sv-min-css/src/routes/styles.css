@@ -1,12 +1,4 @@
 /*
-Aqui van los estilos, 
-se puede importar pico  aqui on el +layout.svelte
-*/
-
-/* Picocss https://picocss.com/ */
-@import '@picocss/pico';
-/* para layout avanzados con pico descargar http://flexboxgrid.com/ 
-*  otras opciones son servicios online:
-* https://cssgrid-generator.netlify.app/
-* https://griddy.io/ 
+ * Aqui van los estilos,
+ * se puede importar o construir los css aqui para importarlos en el +layout.svelte
 */

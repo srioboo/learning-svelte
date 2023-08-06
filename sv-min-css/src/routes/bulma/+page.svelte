@@ -8,34 +8,26 @@
 </svelte:head>
 
 
+<section class="hero is-warning">
+    <div class="hero-body">
+        <p class="title">
+            Ejemplos bulma
+        </p>
+        <p class="subtitle">
+            Algunos ejemplos de estilos con bulma
+        </p>
+    </div>
+</section>
+
 <div class="container">
     <div class="columns">
-        <div class="column col-6"><p class="bd-notification is-primary">col-1</p></div>
-        <div class="column col-3"><p class="bd-notification is-primary">col-2</p></div>
-        <div class="column col-2"><p class="bd-notification is-primary">col-3</p></div>
-        <div class="column col-1"><p class="bd-notification is-primary">col-4</p></div>
+        <div class="column is-primary"><p class="bd-notification is-primary">col-1</p></div>
+        <div class="column"><p class="bd-notification is-primary">col-2</p></div>
+        <div class="column"><p class="bd-notification is-primary">col-3</p></div>
+        <div class="column"><p class="bd-notification is-primary">col-4</p></div>
     </div>
 </div>
 
-
-<div class="column">
-    <h1>About this app</h1>
-
-    <div class="coll">
-        This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-        following into your command line and following the prompts:
-    </div>
-
-    <pre>npm create svelte@latest</pre>
-
-    <p>
-        The page you're looking at is purely static HTML, with no client-side interactivity needed.
-        Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-        the devtools network panel and reloading.
-    </p>
-
-    <p>
-        The <a href="/sverdle">Sverdle</a> page illustrates SvelteKit's data loading and form handling. Try
-        using it with JavaScript disabled!
-    </p>
-</div>
+<button class="button is-primary">
+    Button
+</button>

@@ -1,4 +1,6 @@
 /* Write your global styles here, in SCSS syntax. Variables and mixins from the src/variables.scss file are available here without importing */ /* Import only what you need from Bulma */
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+/*$body-overflow-y: auto;
 @import 'bulma/sass/utilities/_all';
 @import 'bulma/sass/base/_all';
 @import 'bulma/sass/elements/_all';
@@ -6,4 +8,5 @@
 @import 'bulma/sass/components/_all';
 @import 'bulma/sass/grid/_all';
 @import 'bulma/sass/helpers/_all';
-@import 'bulma/sass/layout/_all';
+@import 'bulma/sass/layout/_all';*/
+

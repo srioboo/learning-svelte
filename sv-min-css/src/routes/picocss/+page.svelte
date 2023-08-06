@@ -5,6 +5,7 @@
 <svelte:head>
     <title>Bulma test page</title>
     <meta name="description" content="Bulma test page" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
 </svelte:head>
 
 

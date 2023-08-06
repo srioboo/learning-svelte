@@ -36,6 +36,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"bulma": "^0.9.4",
 		"@picocss/pico": "^1.5.10",
 		"spectre.css": "^0.5.9"
 	}

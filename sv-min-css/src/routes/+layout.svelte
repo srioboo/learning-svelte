@@ -1,7 +1,4 @@
 <script lang="ts">
-	import './styles.css'; // o importar pico desde los estilos
-	import './styles-custom.css'; // customized styles
-	import './styles-pico.css'; // styles pico css
 	import Header from './Header.svelte';
 </script>
 

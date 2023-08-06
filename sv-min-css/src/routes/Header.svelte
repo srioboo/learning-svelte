@@ -6,11 +6,6 @@
 
 <header>
     <nav>
-        <ul class="corner">
-            <li><a href="https://kit.svelte.dev">
-                Svelte Kit
-            </a></li>
-        </ul>
         <ul class="navbar-menu">
             <li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
                 <a href="/">Home</a>
@@ -18,14 +13,15 @@
             <li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
                 <a href="/about">About</a>
             </li>
-            <li aria-current={$page.url.pathname.startsWith('/sverdle') ? 'page' : undefined}>
-                <a href="/sverdle">Sverdle</a>
+            <li aria-current={$page.url.pathname === '/bulma' ? 'page' : undefined}>
+                <a href="/bulma">Bulma</a>
             </li>
-        </ul>
-        <ul class="corner">
-            <li><a href="https://github.com/sveltejs/kit">
-                GitHub Svelkit
-            </a></li>
+            <li aria-current={$page.url.pathname.startsWith('/spectre') ? 'page' : undefined}>
+                <a href="/spectre">Spectre</a>
+            </li>
+            <li aria-current={$page.url.pathname.startsWith('/picocss') ? 'page' : undefined}>
+                <a href="/picocss">Picocss</a>
+            </li>
         </ul>
     </nav>
 </header>

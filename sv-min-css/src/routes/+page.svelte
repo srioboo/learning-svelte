@@ -1,7 +1,5 @@
 <script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
+	// import Counter from './Counter.svelte';
 </script>
 
 <svelte:head>
@@ -10,22 +8,33 @@
 </svelte:head>
 
 <section>
-	<h1>
-		<span>
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span>
+	<h1>Test de frameworks css</h1>
 
-		to your new<br />SvelteKit app
-	</h1>
+	<section>
+		<h2>Bulma</h2>
+		<p>Intro: </p>
+		<p>Website: <a href="https://bulma.io/">https://bulma.io/</a></p>
+	</section>
 
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
+	<section>
+		<h2>Spectre</h2>
+		<p>Intro: </p>
+		<p>Website: <a href="https://picturepan2.github.io/spectre/index.html">https://picturepan2.github.io/spectre/index.html</a></p>
+	</section>
 
-	<Counter />
+	<section>
+		<h2>Pico css</h2>
+		<p>Intro: </p>
+		<p>Website: <a href="https://picocss.com/">https://picocss.com/m</a></p>
+	</section>
+
+	<section>
+		<h2>Tailwindcss</h2>
+		<p>Intro: </p>
+		<p>Website: <a href="https://tailwindcss.com/">https://tailwindcss.com/</a></p>
+	</section>
+
+	<!-- <Counter /> -->
 </section>
 
 <style>

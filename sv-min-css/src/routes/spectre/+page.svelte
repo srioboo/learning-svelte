@@ -1,5 +1,5 @@
 <script>
-
+    import Main from "$lib/components/main.svelte";
 </script>
 
 <svelte:head>
@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
 </svelte:head>
 
+<Main />
 
+<!-- TODO test especificos 
 <div class="container">
     <div class="columns">
         <div class="column col-6">col-6</div>
@@ -42,3 +44,4 @@
         using it with JavaScript disabled!
     </p>
 </div>
+-->

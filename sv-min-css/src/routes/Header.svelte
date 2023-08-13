@@ -22,6 +22,9 @@
             <li aria-current={$page.url.pathname.startsWith('/picocss') ? 'page' : undefined}>
                 <a href="/picocss">Picocss</a>
             </li>
+            <li aria-current={$page.url.pathname.startsWith('/skeleton') ? 'page' : undefined}>
+                <a href="/skeleton">Skeleton</a>
+            </li>
         </ul>
     </nav>
 </header>

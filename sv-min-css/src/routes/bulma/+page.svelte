@@ -1,5 +1,6 @@
 <script>
     import './styles-bulma.scss';
+    import Main from '$lib/components/main.svelte';
 </script>
 
 <svelte:head>
@@ -7,7 +8,9 @@
     <meta name="description" content="Bulma test page" />
 </svelte:head>
 
+<Main />
 
+<!-- TODO test especificos
 <section class="hero is-warning">
     <div class="hero-body">
         <p class="title">
@@ -31,3 +34,5 @@
 <button class="button is-primary">
     Button
 </button>
+
+-->

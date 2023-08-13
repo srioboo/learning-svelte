@@ -1,5 +1,6 @@
 <script>
     import './styles-pico.css'; // styles pico css
+    import Main from "$lib/components/main.svelte";
 </script>
 
 <svelte:head>
@@ -8,7 +9,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
 </svelte:head>
 
+<Main />
 
+<!-- TODO test especificos
 <div class="container">
     <div class="columns">
         <div class="column col-6">col-6</div>
@@ -39,4 +42,4 @@
         The <a href="/sverdle">Sverdle</a> page illustrates SvelteKit's data loading and form handling. Try
         using it with JavaScript disabled!
     </p>
-</div>
+</div> -->
